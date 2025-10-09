@@ -16,8 +16,6 @@ nav:
   - Chapitre 9: chapitre9.md
   - Chapitre 10: chapitre10.md
   - Chapitre 11: chapitre11.md
-Plugins:
-  - search
 
-
-  - Notes: "Copy vers Grok.md"  # Ajouté ici
+  - Notes: "Copy vers Grok.md"  # Ajouté ici   
+    
