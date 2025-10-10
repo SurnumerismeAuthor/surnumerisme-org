@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Surnumérisme : Une Théorie Médiane pour une Économie Humaine et Globale
 
 Bienvenue dans ce manifeste open-source, publié le 12 octobre 2025 – écho au 12 octobre 1492, jour de la découverte d'un nouveau monde. Sous "Wilfried St Dial" (cadran solaire guidant l'humanité), ce livre explore le Surnumérisme : prélèvement sur grandes sociétés pour continuité entrepreneuriale des cadres.
@@ -31,11 +30,3 @@ Ce livre explore un concept économique humaniste : un prélèvement sur les gra
 ## Sections du livre
 - Introduction au Surnumérisme.
 - Prélèvements et continuité entrepreneuriale.
-- ...
-
----
-
-HEAD (à développer...)
-
-Pour contribuer : fork le repo et ouvre une PR !
->>>>>>> 49d5823d33a4e12e25ae347aae7ca4612ea06a2a
