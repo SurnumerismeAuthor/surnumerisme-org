@@ -1,6 +1,18 @@
-HEAD
-# Surnumerisme-livre
-Livre open-source sur le Surnumerisme : un concept économique par l'homme et pour l'humain 
-=======
-# surnumerisme-livre
-Livre open source sur le Surnumérisme : Prélèvement sur les  Grandes Sociétés pour une continuité Entrepreneuriale à l'adresse des cadres supérieurs ayant déjà une expérience professionnelle.
+# Surnumérisme : Une Théorie Médiane pour une Économie Humaine et Globale
+
+Bienvenue dans ce manifeste open-source, publié le 12 octobre 2025 – écho au 12 octobre 1492, jour de la découverte d'un nouveau monde. Sous "Wilfried St Dial" (cadran solaire guidant l'humanité), ce livre explore le Surnumérisme : prélèvement sur grandes sociétés pour continuité entrepreneuriale des cadres.
+
+## Aperçu
+- **Concept** : Redistribution via CapitalSurn pour moraliser la finance et valoriser le travail humain.
+- **Structure** : 11 chapitres, de la monnaie numéraire au modèle planétaire.
+
+## Navigation (Site MkDocs)
+- [Sommaire](sommaire.md)
+- [Introduction](introduction.md)
+- [Chapitre 1 : La Monnaie](chapitre1.md)
+- [Chapitre 2 : Le CapitalSurn](chapitre2.md)
+- ... [Tous les chapitres](sommaire.md)
+
+Site live : [https://surnumerismeauthor.github.io/surnumerisme-livre](https://surnumerismeauthor.github.io/surnumerisme-livre)
+
+Contribuez : Forkez, éditez, pull request !
