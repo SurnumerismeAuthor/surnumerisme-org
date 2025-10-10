@@ -1,6 +1,17 @@
 site_name: "Surnumérisme : Une Théorie Médiane pour une Économie Humaine et Globale"
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+    - scheme: slate
+      primary: blue
+      accent: amber
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.tabs
 nav:
   - Accueil: index.md
   - Sommaire: sommaire.md
@@ -18,3 +29,5 @@ nav:
   - Chapitre 11: chapitre11.md
 plugins:
   - search
+extra_css:
+  - overrides/css/custom.css
