@@ -35,6 +35,13 @@ La SurnBank alloue :
 - **20 %** : Formation continue.  
 - **10 %** : Recherche fondamentale. <!-- Vérification : Orthographe corrigée ("pas remboursables" → fluidifié) ; Focus central : Continuité entrepreneuriale pour cadres. Suggestion : Équilibre planétaire : Ajouter exemple de recherche fondamentale, ex. : IA en Chine (Huawei) ou biotechnologie aux USA (Pfizer), en alternance avec Afrique pour diversité -->
 
+```mermaid
+graph TD
+  A[Grandes Sociétés] -->|Prélèvement| B[SurnBank]
+  B -->|70%| C[Startups Cadres]
+  B -->|20%| D[Formation]
+  B -->|10%| E[Recherche]
+
 Une IA open-source audite les projets, et un NDA éthique protège l’IP.
 
 ## Compensations et Apports Externes
