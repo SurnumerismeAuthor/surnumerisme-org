@@ -4,7 +4,7 @@ theme:
 nav:
   - Accueil: index.md
   - Sommaire: sommaire.md
-  - Introduction: introduction.md  # Minuscule pour matcher le fichier
+  - Introduction: introduction.md
   - Chapitre 1: chapitre1.md
   - Chapitre 2: chapitre2.md
   - Chapitre 3: chapitre3.md
