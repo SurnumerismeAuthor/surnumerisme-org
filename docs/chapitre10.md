@@ -11,4 +11,5 @@ Le Surnumérisme, bâti sur la monnaie comme numéraire, est un bien commun open
 
 ## Conclusion
 
-Le Surnumérisme est un appel à une économie humaine, ancré dans la monnaie comme création suprême. <!-- NOTE : Appel final avec un focus africain -->
+  - Mahomet parle du Livre de Dieu comme étant un Rappel...à l'humanité ____  
+  - Wilfried St Dial pense du Surnumérisme comme d'un Appel... à l'humain ____!-- NOTE : Appel final avec un focus africain -->

@@ -12,8 +12,8 @@ Le CapitalSurn est le pilier opérationnel du Surnumérisme, transformant la pro
 
 La formule, rigoureusement calibrée, est :  
 <!-- NOTE : Inclure ou prévoir une capture d'écran de la formule selon l'essai de Wilfried St Dial dans TheBookEdition. Écrire lisiblement l'équation pour le rendu MkDocs -->
+Cs = \left( \sqrt{D} \right)^{\frac{2}{e}} \times \left( \sqrt{P} + P \right) \times \frac{A}{100}
 
-$$ \text{CapitalSurn} = \left( \frac{D + E \times 0.5 + R \times 0.1}{100} \right) \times \text{Revenus Annuels Nets} $$
 
 - **D** : Niveau de diplôme (1–5, ex. : 2 pour master). <!-- NOTE : Préciser si inclure des certifications locales, ex. : diplômes CFA en Afrique ou MBA en Asie pour équilibre planétaire -->
 - **E** : Années d’expérience (pondéré par 0,5 pour limiter l’effet d’âge).
