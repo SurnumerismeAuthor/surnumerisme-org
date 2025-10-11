@@ -1,0 +1,11 @@
+# Test Formule Capital Surnuméraire
+
+La formule du Capital Surnuméraire (Chapitre 2) est :
+
+$$ Cs = \left( \sqrt{D} \right)^{\frac{2}{e}} \times \left( \sqrt{P} + P \right) \times \frac{A}{100} $$
+
+Explications :
+- \( P \) : Capital de base
+- \( \sqrt{P} \) : Prime racine
+- \( \left( \sqrt{D} \right)^{\frac{2}{e}} \) : Facteur exponentiel
+- \( \frac{A}{100} \) : Ajustement en pourcentage
