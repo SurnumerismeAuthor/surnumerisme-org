@@ -10,7 +10,7 @@ Le CapitalSurn est le pilier opérationnel du Surnumérisme, transformant la pro
 
 ## La Formule du CapitalSurn
 
-La formule, rigoureusement calibrée, est :  
+La formule proposée, est :  
 <!-- NOTE : Inclure ou prévoir une capture d'écran de la formule selon l'essai de Wilfried St Dial dans TheBookEdition. Écrire lisiblement l'équation pour le rendu MkDocs -->
 
 
