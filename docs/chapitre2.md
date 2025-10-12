@@ -12,8 +12,8 @@ Le CapitalSurn est le pilier opérationnel du Surnumérisme, transformant la pro
 
 La formule, rigoureusement calibrée, est :  
 <!-- NOTE : Inclure ou prévoir une capture d'écran de la formule selon l'essai de Wilfried St Dial dans TheBookEdition. Écrire lisiblement l'équation pour le rendu MkDocs -->
-Cs = \left( \sqrt{D} \right)^{\frac{2}{e}} \times \left( \sqrt{P} + P \right) \times \frac{A}{100}
 
+![Formule CapitalSurn](images/cs_formula.png)
 
 - **D** : Niveau de diplôme (1–5, ex. : 2 pour master). <!-- NOTE : Préciser si inclure des certifications locales, ex. : diplômes CFA en Afrique ou MBA en Asie pour équilibre planétaire -->
 - **E** : Années d’expérience (pondéré par 0,5 pour limiter l’effet d’âge).
@@ -22,7 +22,17 @@ Cs = \left( \sqrt{D} \right)^{\frac{2}{e}} \times \left( \sqrt{P} + P \right) \t
 
 **Exemple** : Un cadre avec un doctorat (D=3), 15 ans d’expérience (E=15), et 30 % de contribution (R=30) dans une entreprise de 1 milliard USD génère :
 
+
 $$ \text{CapitalSurn} = \left( \frac{3 + (15 \times 0.5) + (30 \times 0.1)}{100} \right) \times 1\,000\,000\,000 = 135\,000\,000\,USD $$
+
+![Formule Capital Surnuméraire](images/cs_formula.png)
+
+
+
+- \( P \) : Capital de base.
+- \( \sqrt{P} + P \) : Prime racine plus capital.
+- \( \left( \sqrt{D} \right)^{\frac{2}{e}} \) : Facteur de croissance exponentielle (équivalent à \( D^{1/e} \)).
+- \( \frac{A}{100} \) : Ajustement en pourcentage.
 
 Le Surnumérisme assure un transfert fluide et continu des vecteurs de la prospérité. <!-- Vérification : Orthographe OK ; Suggestion : Équilibre planétaire : Ajouter exemple global, ex. : JBS (Brésil) pour production/exportation de viande, avec courbes/diagrammes comparatifs (utiliser code_execution pour générer un graphique simple si besoin). Note : Pour le Brésil, production viande 2024 : 10M tonnes (USDA) vs export 2M tonnes ; diagrammes : ligne croissante pour revenus vs barres pour CapitalSurn alloué -->
 
