@@ -1,7 +1,13 @@
+# Chapitre 2 : Surnumérisme - Formule Capital Surnuméraire
 
-# Chapitre 2 : Surnumérisme
+Voici la formule du Capital Surnuméraire (Cs), inspirée de nos échanges sur les racines carrées et l'exponentielle :
 
-La formule du Capital Surnuméraire est :
+![Formule Capital Surnuméraire](cs_formula.png)
 
-```math
-Cs = \left( \sqrt{D} \right)^{\frac{2}{e}} \times \left( \sqrt{P} + P \right) \times \frac{A}{100}
+## Explications :
+- \( P \) : Capital de base.
+- \( \sqrt{P} + P \) : Prime racine plus capital (équiv. à \( \sqrt{P} (1 + \sqrt{P}) \)).
+- \( \left( \sqrt{D} \right)^{\frac{2}{e}} \) : Facteur de croissance exponentielle (équiv. à \( D^{1/e} \)).
+- \( \frac{A}{100} \) : Ajustement en pourcentage.
+
+**Note** : L'image remplace le rendu LaTeX pour compatibilité maximale sur GitHub.
