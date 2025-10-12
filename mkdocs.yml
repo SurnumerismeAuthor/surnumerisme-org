@@ -12,6 +12,7 @@ theme:
     - navigation.instant
     - navigation.sections
     - content.tabs
+    
 nav:
   - Accueil: index.md
   - Sommaire: sommaire.md
