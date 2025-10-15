@@ -12,6 +12,7 @@ theme:
     - navigation.instant
     - navigation.sections
     - content.tabs
+    
 nav:
   - Accueil: index.md
   - Sommaire: sommaire.md
@@ -27,6 +28,7 @@ nav:
   - Chapitre 9: chapitre9.md
   - Chapitre 10: chapitre10.md
   - Chapitre 11: chapitre11.md
+  
 plugins:
   - search
 extra_css:
