@@ -1,3 +1,9 @@
+
+title: index
+layout: page
+
+<meta name="google-site-verification" content="B2mzdgMREUsllafDS_dn3p9xA53ucGYLSo9kP14AOOs" />
+
 # Accueil
 
 Bienvenue dans SURNUMERISME, un livre open-source sur une économie TRAVAILLISTE.

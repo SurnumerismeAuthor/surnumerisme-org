@@ -1,0 +1,18 @@
+theme: minima
+source: docs
+destination: _site
+minima:
+  skin: dark
+plugins:
+  - jekyll-feed
+favicon: C:\Surnumerisme-Livre\images\favicon.png
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      permalink: /:basename.html
+      meta_description: "Découvrez le Surnumérisme, une théorie économique travailliste pour l'équité planétaire."
+      meta_keywords: "Surnumérisme, SurnBank, économie, travail, IA, blockchain"

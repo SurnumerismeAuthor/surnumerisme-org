@@ -1,3 +1,6 @@
+
+title: Sommaire
+layout: page
 # Sommaire : Surnumérisme – Une Théorie Médiane pour une Économie Humaine et Globale
 
 * [Accueil](index.md) : Appel universel.
