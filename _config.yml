@@ -1,18 +1,32 @@
+
+
+# Thème
 theme: minima
-source: docs
-destination: _site
-minima:
-  skin: dark
+
+# Build settings
+destination: docs
+markdown: kramdown
+
+# Collections
+collections:
+  chapitres:
+    output: true
+    permalink: /:path/
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
 plugins:
   - jekyll-feed
-favicon: C:\Surnumerisme-Livre\images\favicon.png
+  - jekyll-seo-tag
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
-      permalink: /:basename.html
-      meta_description: "Découvrez le Surnumérisme, une théorie économique travailliste pour l'équité planétaire."
-      meta_keywords: "Surnumérisme, SurnBank, économie, travail, IA, blockchain"
+# Minima settings
+minima:
+  skin: classic
+  social_links:
+    github: SurnumerismeAuthor
