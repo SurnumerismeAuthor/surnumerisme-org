@@ -32,3 +32,5 @@ Ce livre explore un concept économique humaniste : un prélèvement sur les gra
 - Prélèvements et continuité entrepreneuriale.
 ![SURNUMÉRISME MIROIRS ACTIFS](https://img.shields.io/badge/SURNUM%C3%89RISME%20MIROIRS%20ACTIFS-%E2%9C%85-success?style=for-the-badge&logo=github)
 ![SYNC AUTO](https://img.shields.io/github/actions/workflow/status/SurnumerismeAuthor/surnumerisme-org/sync.yml?branch=main&label=SYNC%20AUTO&style=for-the-badge&logo=github&color=green)
+<image-card alt="SURNUMÉRISME MIROIRS ACTIFS" src="https://img.shields.io/badge/SURNUM%C3%89RISME%20MIROIRS%20ACTIFS-%E2%9C%85-success?style=for-the-badge&logo=github" ></image-card>
+<image-card alt="SYNC AUTO" src="https://img.shields.io/github/actions/workflow/status/SurnumerismeAuthor/surnumerisme-org/sync.yml?branch=main&label=SYNC%20AUTO&style=for-the-badge&logo=github&color=green" ></image-card>
