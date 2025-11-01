@@ -1,0 +1,85 @@
+name: Sync Livre → Org
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955
+        with:
+          fetch-depth: 0
+
+      - name: Pull from livre
+        run: |
+          git remote add source https://github.com/SurnumerismeAuthor/surnumerisme-livre.git || true
+          git fetch source
+          git reset --hard source/main
+          # Recréer le dossier et le fichier au cas où ils seraient supprimés
+          mkdir -p .github/workflows
+          cat > .github/workflows/sync.yml << 'EOF'
+name: Sync Livre → Org
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955
+        with:
+          fetch-depth: 0
+      - name: Pull from livre
+        run: |
+          git remote add source https://github.com/SurnumerismeAuthor/surnumerisme-livre.git || true
+          git fetch source
+          git reset --hard source/main
+          mkdir -p .github/workflows
+          cat > .github/workflows/sync.yml << 'EOF'
+name: Sync Livre → Org
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955
+        with:
+          fetch-depth: 0
+      - name: Pull from livre
+        run: |
+          git remote add source https://github.com/SurnumerismeAuthor/surnumerisme-livre.git || true
+          git fetch source
+          git reset --hard source/main
+          mkdir -p .github/workflows
+          cat > .github/workflows/sync.yml << 'EOF'
+          EOF
+
+      - name: Check for changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected, proceeding with commit."
+          else
+            echo "No changes to commit."
+            exit 0
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Synchronisation automatique depuis surnumerisme-livre (main)" || echo "No changes to commit"
+
+      - name: Push changes
+        run: git push origin main
